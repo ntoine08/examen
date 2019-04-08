@@ -1,0 +1,192 @@
+body
+{
+    margin: 0;
+    text-align: center;
+}
+
+/* css de la navbar */
+
+nav ul 
+{
+    list-style-type: none;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    padding:10px;
+    overflow: hidden;
+    position: fixed;
+    background-color:#222222;
+    height: 50px;
+    z-index: 1;
+    color: #9d9d9d;
+    
+}
+
+li
+{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 17px;
+    
+}
+
+nav li:hover
+{
+    background-color: black;
+}
+
+/* css du home */
+
+#home
+{
+    width: 100%;
+    height: 600px;
+    margin-top: 30px;
+    padding-top: 30px;
+    display: block;
+    background-image: url("../images/hero-image.jpg");
+    background-size: cover;
+}*
+
+p{
+    font-family: arvo;
+}
+
+#home p
+{
+    color: white;
+    
+}
+
+.premier
+{
+    text-align: center;
+    font-size: 50px;
+}
+
+.deuxieme
+{
+    text-align: center;
+}
+
+.bouton1
+{
+
+    padding: 10px 10px;
+    background: #f74c3c;
+    color: white;
+    font-size: 30px;
+    border: #f74c3c solid 2px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: 0px;
+       
+    
+}
+
+.bouton1:hover
+{
+    background: black;
+}
+
+#home img
+{
+    margin-top: 50px;
+}
+
+/* css du who */
+#who
+{
+    width: 100%;
+    height: 400px;
+    display: block;
+    background-color: white;
+}
+
+#who img
+
+{
+    margin-top: 50px;
+}
+
+#who h3
+{
+    color: #f74c3c;
+    font-size: 25px;
+    font-family: arvo;
+    text-decoration: underline;
+    
+}
+
+#who p
+{
+    font-family: arvo;
+}
+
+
+/* css du get involved */
+#get-involved
+{
+    width: 100%;
+    height: 400px;
+    padding-top: 20px;
+    display: block;
+    background-color:#f5f5f5;
+}
+
+#get-involved h3
+{
+
+    color: #f74c3c;
+    font-size: 25px;
+    font-family: arvo;
+    text-decoration: underline;
+}
+
+h4
+{
+    font-size: 20px;
+    color: #f74c3c;
+    
+}
+
+#get-involved ul
+{
+
+}
+
+#get-involved ul li
+{
+    width: 300px;
+    float: left;
+    line-height: 20px;
+}
+
+#students
+{
+
+}
+
+#educators
+{
+
+}
+
+#sponsors
+{
+
+}
+
+/* css du footer */
+footer
+{
+    width: 100%;
+    height: 250px;
+    display: block;
+    bottom: 0;
+    background-color:  #f74c3c;
+
+}
+
+/* css du back to top */
